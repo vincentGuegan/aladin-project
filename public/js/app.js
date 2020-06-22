@@ -52991,7 +52991,7 @@ Vue.use(vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 
 var routes = [{
-  path: '/home',
+  path: '/',
   component: _components_HomeComponent_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
   path: '/products',

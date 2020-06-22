@@ -19,7 +19,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <router-link to="/home" class="nav-link">Accueil</router-link>
+                            <router-link to="/" class="nav-link">Accueil</router-link>
                         </li>
                         <li class="nav-item">
                             <router-link to="/products" class="nav-link">Nos Produits</router-link>
