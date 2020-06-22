@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="row justify-content-center">
-            <h1>Map</h1>
+            <h1>Site</h1>
         </div>
     </div>
 </template>

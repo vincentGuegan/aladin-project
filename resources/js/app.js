@@ -10,10 +10,39 @@ window.Vue = require('vue');
 import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
+import Home from './components/HomeComponent.vue';
+import Product from './components/ProductComponent.vue';
+import Article from './components/ArticleComponent.vue';
+import Site from './components/SiteComponent.vue';
+import Login from './components/LoginComponent.vue';
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+const routes= [
+    {
+        path: '/home',
+        component: Home
+    },
+    {
+        path: '/products',
+        component: Product
+    },
+    {
+        path: '/articles',
+        component: Article
+    },
+    {
+        path: '/sites',
+        component: Site
+    },
+    {
+        path: '/login',
+        component: Login
+    }
+];
+
+const router = new VueRouter({routes});
 
 
 const app = new Vue({
     el: '#app',
+    router: router
 });

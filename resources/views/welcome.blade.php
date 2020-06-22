@@ -19,26 +19,28 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                            <router-link to="/home" class="nav-link">Accueil</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nos Produits</a>
+                            <router-link to="/products" class="nav-link">Nos Produits</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nos Articles</a>
+                            <router-link to="/articles" class="nav-link">Nos Articles</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Nos Sites</a>
+                            <router-link to="/sites" class="nav-link">Nos Sites</router-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">S'identifier</a>
+                            <router-link to="/login" class="nav-link">S'identifier</router-link>
                         </li>
                     </ul>
                 </div>
             </nav>
 
             <div class="container">
-
+                <!-- route outlet -->
+                <!-- component matched by the route will render here -->
+                <router-view></router-view>
             </div>
             
         </div>
