@@ -16,9 +16,9 @@ class CreateSitesTable extends Migration
         Schema::create('sites', function (Blueprint $table) {
             $table->id();
             $table->string('company_name');
-            $table->string('city');
-            $table->string('address');
-            $table->integer('postal_code');
+            $table->string('city', 30);
+            $table->string('address', 50);
+            $table->string('postal_code');
             $table->timestamps();
         });
     }
