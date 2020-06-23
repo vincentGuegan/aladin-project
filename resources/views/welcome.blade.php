@@ -46,4 +46,19 @@
         </div>
         <script src="{{ asset('js/app.js') }}"></script> <!-- I call vuejs of the public folder I got by compiling the project-->
     </body>
+
+    <style lang="scss">
+
+    @import 'https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css';
+    
+    figure {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 10px;
+        margin-inline-end: 0;
+    }
+    body {
+    margin: 0;
+    }
+
 </html>
